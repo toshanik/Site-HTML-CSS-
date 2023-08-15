@@ -1,0 +1,215 @@
+body{
+margin: 0;
+}
+
+@font-face{
+font-family: 'BigJohn';
+src:url("fonts/BigJohn.otf") format('opentype');
+}
+@font-face {
+font-family: 'OpenSans';
+src:url("fonts/OpenSans-Regular.ttf") format('opentype');
+}
+
+@font-face {
+font-family: 'SourcesansPro-Light';
+src:url("fonts/SourcesansPro-Light.ttf") format('opentype');
+}
+@font-face{
+font-family: 'RobotoCondensed';
+src:url("fonts/RobotoCondensed.ttf") format('opentype');
+}
+
+.preview-container{
+height: 736px;
+background-color: white;
+}
+
+.wrapper{
+height: 100%;
+max-width: 1366px;
+background-image: url("img/wall.jpg");
+background-color: gray;
+margin: 0 auto;
+padding: 40px 78px 40px 100px;
+}
+
+.header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.logo{
+margin: 0;
+color: white;
+font-size: 25px;
+line-height: 12px;
+font-family: 'BigJohn';
+}
+
+.navigation{
+display: flex;
+justify-content: space-between;
+min-width: 571px;
+
+}
+
+.nav-link{
+text-decoration: none;
+min-width: 80px;
+border: 1px solid transparent;
+border-radius: 16px;
+text-align: center;
+font-size: 16px;
+line-height: 12px;
+font-family: 'OpenSans';
+padding: 9px 22px 7px;
+color: white;
+text-shadow: black 1px 1px 5px;
+}
+
+.nav-link:hover{
+border-color: white;
+}
+
+.title{
+font-family: SourcesansPro-Light;
+font-size: 35px;
+font-weight: 300px;
+font-stretch: normal;
+font-style: normal;
+line-height: 2;
+letter-spacing: 7px;
+text-align: center;
+text-transform: uppercase;
+}
+
+.discription{
+height: 45px;
+font-family: 'OpenSans';
+font-size: 20px;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.75;
+letter-spacing: 0.8px;
+text-align: center;
+}
+
+.title2{
+font-family: RobotoCondensed;
+font-size: 20px;
+font-weight: 300px;
+font-stretch: normal;
+font-style: normal;
+line-height: 2;
+letter-spacing: 7px;
+text-align: center;
+text-transform: uppercase;
+}
+
+.discription2{
+height: 45px;
+font-family: 'OpenSans';
+font-size: 18px;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.75;
+letter-spacing: 0.8px;
+text-align: center;
+}
+
+.block1color{
+	color: white;
+	text-shadow: black 1px 1px 3px;
+}
+
+.block{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.topbutton {
+text-decoration: none;
+width:50px;
+border:2px solid #ccc;
+background:#f7f7f7;
+text-align:center;
+padding:10px;
+position:fixed;
+bottom:25px;
+right:30px;
+cursor:pointer;
+color:#333;
+font-family:verdana;
+font-size:12px;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-khtml-border-radius: 5px;
+}
+
+.countrList{
+	margin-top: 100px;
+	font-family: 'OpenSans';
+	font-size: 16px;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.75;
+	letter-spacing: 0.8px;
+}
+
+.blockSoviet{
+	margin-top: 150px;
+	font-family: 'RobotoCondensed';
+}
+
+.checkList{
+	margin-left: 100px;
+}
+.h2checkList{
+	margin-left: 50px;
+}
+
+.countr{
+	margin-top: 50px;
+	margin-right: 150px;
+	margin-left: 150px;
+	width: 0 auto;
+    height: 240px;
+	text-indent: 40px;
+	font-weight: lighter;
+	font-family: 'OpenSans';
+	font-size: 16px;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.75;
+	letter-spacing: 0.8px;
+
+}
+
+.countrPhoto{
+	width: 310px;
+	height: 220px;
+}
+
+.tickets{
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0);
+	font-weight: 700;
+	color: white;
+	text-decoration: none;
+	padding: .8em 1em calc(.8em + 3px);
+	border-radius: 3px;
+	background: rgb(64,199,129);
+	box-shadow: 0 -3px rgb(53,167,110) inset;
+	transition: 0.2s;
+}
+
+
+
+
+
